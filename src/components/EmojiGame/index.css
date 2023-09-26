@@ -1,0 +1,30 @@
+/* Write your code here. */
+.emoji-game-bg {
+  background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+  background-size: cover;
+  height: 120vh;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .emoji-game-bg {
+    height: 100vh;
+  }
+}
+.emoji-cards-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+
+@media screen and (max-width: 576px) {
+  .emoji-cards-list {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

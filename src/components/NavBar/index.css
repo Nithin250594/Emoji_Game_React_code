@@ -1,0 +1,83 @@
+/* Write your code here. */
+.emoji-navbar {
+  height: 12vh;
+  background-color: #ffffff33;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 576px) {
+  .emoji-navbar {
+    height: 8vh;
+    background-color: #ffffff33;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #ffffff;
+    margin-bottom: 25px;
+  }
+}
+
+.emoji-logo {
+  width: 50px;
+}
+
+@media screen and (max-width: 576px) {
+  .emoji-logo {
+    width: 25px;
+  }
+}
+
+.emoji-game-title {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 576px) {
+  .emoji-game-title {
+    font-size: 16px;
+  }
+}
+
+.emoji-logo-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .emoji-game-title {
+    font-size: 16px;
+  }
+}
+
+.score-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score-text {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .score-text {
+    font-size: 14px;
+    margin-left: 15px;
+  }
+}
